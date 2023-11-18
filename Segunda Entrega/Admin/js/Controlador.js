@@ -182,8 +182,8 @@ const generarPrincipal = () =>{
                 <div id="content-0" class="main">
                     <h4>Ultimas Valoraciones</h4>
                     <section class="cliente-valoracion"><div><h3 class="texto-0">Cliente: Daniel</h3></div>   <div><h3><i class="fa-solid fa-thumbs-up     valoracion"></i></h3> </div> </section>
-                    <section class="cliente-valoracion"><div><h3 class="texto-0">Cliente: VelozBoy</h3></div>      <div><h3><i class="fa-solid fa-thumbs-down       valoracion"></i></h3> </div></section>
-                    <section class="cliente-valoracion"><div><h3 class="texto-0">Cliente: MorteritoMan</h3></div>       <div><h3><i class="fa-solid fa-thumbs-up     valoracion"></i></h3></div> </section>
+                    <section class="cliente-valoracion"><div><h3 class="texto-0">Cliente: Manuel</h3></div>      <div><h3><i class="fa-solid fa-thumbs-down       valoracion"></i></h3> </div></section>
+                    <section class="cliente-valoracion"><div><h3 class="texto-0">Cliente: Samuel</h3></div>       <div><h3><i class="fa-solid fa-thumbs-up     valoracion"></i></h3></div> </section>
                 </div>
                 
                 <div hidden id="content-1"></div>

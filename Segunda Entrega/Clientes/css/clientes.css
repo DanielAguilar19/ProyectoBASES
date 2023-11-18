@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px){
+
     *{
         margin: 0;
     }
@@ -52,14 +52,14 @@
 /*CSS basicos para la pagina*/
     div.main{
         grid-area: 'main';
-        align-self: center;
+        display: flex;
+        justify-content: center;
         min-height: 70vh;
         border-width: 0;
         background-color: rgb(206, 230, 208);
         border-top-left-radius: 20px; border-top-right-radius: 20px;
         display: grid;
         columns: 1;
-        padding-right: 20px; padding-left: 20px;
     }
     div.card{
         display: flex;
@@ -113,7 +113,7 @@
         padding-top: 8px;
         padding-left: 15px;
     }
-}
+
 /*css para la opcion de usuarios */
 .contentUser{
     padding-top: 20px;
@@ -122,6 +122,7 @@
 }
 .profilepic{
     border-width: 0;
+    background-color:  rgb(206, 230, 208);
 }
 #imagenDePerfil{
     background-color: rgb(206, 230, 208);
