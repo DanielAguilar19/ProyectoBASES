@@ -1,0 +1,50 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+
+  form {
+    height: 80%;
+    width: 400px;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 8px;
+    background-color: #000000a2;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #4c7faf;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  #contenedorPadre{
+    display: flexbox;
+    justify-self: end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
